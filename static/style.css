@@ -177,3 +177,17 @@ section { display: flex; flex-direction: column; gap: 1rem; }
 @media (prefers-reduced-motion: reduce) {
   .caret { animation: none; }
 }
+
+/* Specialty tags on the About page */
+.prose .tags { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.prose .tags li {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step--1);
+  line-height: 1.4;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--fg);
+}
+.prose strong { color: var(--fg); font-weight: 600; }
