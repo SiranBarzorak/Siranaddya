@@ -55,7 +55,6 @@ function layout({ title, description, body, active, root = "" }) {
   const nav = [
     ["home", "index.html", "home"],
     ["blog", "blog.html", "blog"],
-    ["about", "about.html", "about"],
   ]
     .map(
       ([key, href, label]) =>
@@ -152,6 +151,10 @@ export function build() {
   <h1>${esc(config.name)}</h1>
   <p class="tagline">${esc(config.tagline)}</p>
 </section>
+<section id="about">
+  <h2 class="section-label"><span class="prompt">$</span> cat about.md</h2>
+  <div class="prose">${marked.parse(about.body)}</div>
+</section>
 <section>
   <h2 class="section-label"><span class="prompt">$</span> ls posts/ --recent</h2>
   ${postList(posts.slice(0, 5))}
@@ -171,14 +174,16 @@ ${postList(posts)}`,
     })
   );
 
+  // The About text now lives on the home page; keep old about.html links working.
   write(
     "about.html",
-    layout({
-      title: `About · ${config.name}`,
-      active: "about",
-      body: `<h1 class="page-title">${esc(about.data.title || "About")}</h1>
-<div class="prose">${marked.parse(about.body)}</div>`,
-    })
+    `<!doctype html>
+<meta charset="utf-8">
+<title>About · ${esc(config.name)}</title>
+<meta http-equiv="refresh" content="0; url=index.html#about">
+<link rel="canonical" href="index.html#about">
+<p><a href="index.html#about">About ${esc(config.name)}</a></p>
+`
   );
 
   for (const p of posts) {
