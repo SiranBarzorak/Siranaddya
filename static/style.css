@@ -224,3 +224,7 @@ section { display: flex; flex-direction: column; gap: 1.25rem; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 1.5rem; }
 .footer-links a { color: var(--muted); text-decoration: none; }
 .footer-links a:hover { color: var(--accent); }
+
+/* Post images */
+.prose p:has(> img:only-child) { margin: 0 0 2rem; }
+.prose img { display: block; border: 1px solid var(--line); border-radius: 6px; }
