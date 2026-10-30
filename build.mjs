@@ -71,7 +71,7 @@ function layout({ title, description, body, active, root = "" }) {
 <meta name="description" content="${esc(description || config.description)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="${root}style.css">
 <link rel="alternate" type="application/rss+xml" title="${esc(config.name)}" href="${root}feed.xml">
 </head>
@@ -153,6 +153,7 @@ export function build() {
   </div>
   ${config.photo ? `<img class="portrait" src="${esc(config.photo)}" alt="Portrait of ${esc(config.name)}" width="640" height="640">` : ""}
 </section>
+${config.quote ? `<blockquote class="signature-quote"><p>&ldquo;${esc(config.quote)}&rdquo;</p></blockquote>` : ""}
 <section id="about">
   <h2 class="section-label">About</h2>
   <div class="prose">${marked.parse(about.body)}</div>
