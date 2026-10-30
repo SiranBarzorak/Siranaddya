@@ -78,7 +78,7 @@ function layout({ title, description, body, active, root = "" }) {
 <body>
 <div class="wrap">
 <header class="site-header">
-  <a class="brand" href="${root}index.html"><span class="prompt">~/</span>${esc(config.handle)}<span class="caret" aria-hidden="true"></span></a>
+  <a class="brand" href="${root}index.html"><span class="prompt">~/</span>${esc(config.handle)}</a>
   <nav>${nav}<a href="${root}feed.xml">rss</a></nav>
 </header>
 <main>
