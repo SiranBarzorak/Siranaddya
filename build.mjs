@@ -148,18 +148,17 @@ export function build() {
       active: "home",
       body: `<section class="intro">
   <div class="intro-text">
-    <p class="cmd"><span class="prompt">$</span> whoami</p>
     <h1>${esc(config.name)}</h1>
     <p class="tagline">${esc(config.tagline)}</p>
   </div>
   ${config.photo ? `<img class="portrait" src="${esc(config.photo)}" alt="Portrait of ${esc(config.name)}" width="640" height="640">` : ""}
 </section>
 <section id="about">
-  <h2 class="section-label"><span class="prompt">$</span> cat about.md</h2>
+  <h2 class="section-label">About</h2>
   <div class="prose">${marked.parse(about.body)}</div>
 </section>
 <section>
-  <h2 class="section-label"><span class="prompt">$</span> ls posts/ --recent</h2>
+  <h2 class="section-label">Latest posts</h2>
   ${postList(posts.slice(0, 5))}
   ${posts.length > 5 ? `<p><a class="more" href="blog.html">All ${posts.length} posts &rarr;</a></p>` : ""}
 </section>`,

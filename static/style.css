@@ -81,11 +81,13 @@ main { display: flex; flex-direction: column; gap: 3rem; min-width: 0; }
 
 /* Home */
 .intro { display: flex; flex-direction: column; gap: 0.5rem; }
-.cmd, .section-label {
+.section-label {
   font-family: var(--font-display);
   font-size: var(--step--1);
-  font-weight: 400;
-  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
   margin: 0;
 }
 .intro h1 { font-size: var(--step-3); font-weight: 800; letter-spacing: -0.02em; margin: 0.25rem 0 0; }
