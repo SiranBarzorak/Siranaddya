@@ -1,0 +1,12 @@
+{
+  "name": "Your Name",
+  "handle": "yourname",
+  "tagline": "Software engineer. I write about the things I build, break, and fix.",
+  "description": "Notes, posts, and projects by Your Name.",
+  "url": "https://yourname.github.io",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/yourname" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/yourname" },
+    { "label": "Email", "url": "mailto:you@example.com" }
+  ]
+}
