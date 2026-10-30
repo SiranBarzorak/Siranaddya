@@ -1,6 +1,7 @@
 ---
 title: How this site is built
 description: A Markdown folder, one build script, and plain HTML output.
+draft: true
 ---
 
 The whole site is about 200 lines of JavaScript. Here's the layout:

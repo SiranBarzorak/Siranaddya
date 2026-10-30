@@ -1,12 +1,21 @@
 {
   "name": "Siran Barzorak",
   "handle": "sbarzorak",
-  "tagline": "Software engineer. I write about the things I build, break, and fix.",
+  "tagline": "Integrated Learning & Talent Adoption Lead. I write about how people learn, grow, and take up new ways of working.",
   "description": "Notes, posts, and projects by Siran Barzorak.",
   "url": "https://yourname.github.io",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/yourname" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/yourname" },
-    { "label": "Email", "url": "mailto:you@example.com" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/yourname"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yourname"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:you@example.com"
+    }
   ]
 }

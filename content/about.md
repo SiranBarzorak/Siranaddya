@@ -2,9 +2,9 @@
 title: About
 ---
 
-Hi, I'm **Siran Barzorak**. I'm a software engineer based in *Your City*. I mostly work on *what you work on*.
+Hi, I'm **Siran Barzorak**. I'm an Integrated Learning & Talent Adoption Lead based in *Your City*. I help people and teams learn new skills and actually adopt new ways of working.
 
-This site is where I write things down: what I'm building, things I learned the hard way, and the occasional opinion.
+This site is where I write things down: what I'm learning, what works (and what doesn't) in helping people grow, and the occasional opinion.
 
 ## What I do
 
