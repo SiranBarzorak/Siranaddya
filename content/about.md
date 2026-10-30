@@ -27,6 +27,8 @@ AI-native companies, SaaS scale-ups, enterprise software and any industry rollin
 
 Customer success, adoption and enablement, solutions and value advisory, partnerships and alliances, and go-to-market leadership at AI and technology companies. Based in Singapore.
 
+Reach me on [LinkedIn](https://www.linkedin.com/in/siranaddya/) or at [s.barzorak@gmail.com](mailto:s.barzorak@gmail.com).
+
 ## Specialties
 
 <ul class="tags">
