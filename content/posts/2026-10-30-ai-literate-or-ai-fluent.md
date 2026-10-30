@@ -3,8 +3,6 @@ title: Is your organization simply AI literate, or is it truly AI fluent?
 description: Most companies have deployed AI, but few see real value. The gap is about people, not technology. Here's a framework for moving from AI literacy to AI fluency.
 ---
 
-![The journey from AI literacy to AI fluency, connected by a talent intelligence platform](../images/ai-literacy-to-fluency.webp)
-
 Leaders around the world are facing a surprising problem. Companies are spending heavily on AI, yet those investments are barely moving the bottom line. Technology alone no longer sets a business apart. It has become the price of entry.
 
 ## The AI value gap
@@ -18,6 +16,8 @@ Companies are deploying AI, but most are not getting the results they expected. 
 AI initiatives rarely stall because of IT failures. They stall because of people. Even with strong infrastructure in place, employees may lack the skills to use AI well. Handing people advanced tools won't raise productivity if they can't apply them to real business problems.
 
 Leaders need to treat AI as a fundamental shift in what their people can do, not as another software upgrade.
+
+![The journey from AI literacy to AI fluency, connected by a talent intelligence platform](../images/ai-literacy-to-fluency.webp)
 
 ## From AI literacy to AI fluency
 

@@ -226,5 +226,6 @@ section { display: flex; flex-direction: column; gap: 1.25rem; }
 .footer-links a:hover { color: var(--accent); }
 
 /* Post images */
-.prose p:has(> img:only-child) { margin: 0 0 2rem; }
+.prose p:has(> img:only-child) { margin: 2.75rem 0 0; }
+.prose p:has(> img:only-child) + h2 { margin-top: 1.75rem; }
 .prose img { display: block; border: 1px solid var(--line); border-radius: 6px; }
