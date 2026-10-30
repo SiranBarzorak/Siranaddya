@@ -193,18 +193,20 @@ section { display: flex; flex-direction: column; gap: 1rem; }
 .prose strong { color: var(--fg); font-weight: 600; }
 
 /* Home intro with portrait */
-.intro { flex-direction: row; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
+.intro { flex-direction: row; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .intro-text { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
 .portrait {
   flex: 0 0 auto;
-  width: clamp(9rem, 28vw, 15rem);
+  width: clamp(8.5rem, 24vw, 12.5rem);
   height: auto;
   max-width: 100%;
-  /* Fade the cropped shoulders into the page instead of ending on a hard edge. */
-  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 70%, transparent 100%);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, var(--line), var(--surface) 70%);
+  box-shadow: 0 0 0 1px var(--line), 0 0 0 5px var(--bg), 0 0 0 6px var(--accent-soft);
 }
 @media (max-width: 34rem) {
   .intro { flex-direction: column-reverse; align-items: flex-start; }
-  .portrait { width: 10rem; }
+  .portrait { width: 8.5rem; }
 }
