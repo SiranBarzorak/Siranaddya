@@ -19,6 +19,6 @@ npm run build   # writes the site to dist/
 
 ## Deploy
 
-**GitHub Pages:** push this folder to a GitHub repo, then go to Settings → Pages and set Source to "GitHub Actions". The included workflow builds and deploys on every push to `main`. Set `url` in `site.config.json` to your Pages address so the RSS feed links work.
+**GitHub Pages:** this repo deploys automatically on every push to `main` (Settings → Pages → Source: "GitHub Actions"). The live site is at https://siranbarzorak.github.io/Siranaddya/.
 
 **Netlify / Cloudflare Pages / Vercel:** build command `npm run build`, output directory `dist`.
