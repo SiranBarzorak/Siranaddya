@@ -147,9 +147,12 @@ export function build() {
       title: config.name,
       active: "home",
       body: `<section class="intro">
-  <p class="cmd"><span class="prompt">$</span> whoami</p>
-  <h1>${esc(config.name)}</h1>
-  <p class="tagline">${esc(config.tagline)}</p>
+  <div class="intro-text">
+    <p class="cmd"><span class="prompt">$</span> whoami</p>
+    <h1>${esc(config.name)}</h1>
+    <p class="tagline">${esc(config.tagline)}</p>
+  </div>
+  ${config.photo ? `<img class="portrait" src="${esc(config.photo)}" alt="Portrait of ${esc(config.name)}" width="640" height="640">` : ""}
 </section>
 <section id="about">
   <h2 class="section-label"><span class="prompt">$</span> cat about.md</h2>
