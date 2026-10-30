@@ -71,7 +71,7 @@ function layout({ title, description, body, active, root = "" }) {
 <meta name="description" content="${esc(description || config.description)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
 <link rel="stylesheet" href="${root}style.css">
 <link rel="alternate" type="application/rss+xml" title="${esc(config.name)}" href="${root}feed.xml">
 </head>
