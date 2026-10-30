@@ -53,8 +53,8 @@ function loadPosts() {
 
 function layout({ title, description, body, active, root = "" }) {
   const nav = [
-    ["home", "index.html", "home"],
-    ["blog", "blog.html", "blog"],
+    ["home", "index.html", "Home"],
+    ["blog", "blog.html", "Blog"],
   ]
     .map(
       ([key, href, label]) =>
@@ -78,8 +78,8 @@ function layout({ title, description, body, active, root = "" }) {
 <body>
 <div class="wrap">
 <header class="site-header">
-  <a class="brand" href="${root}index.html"><span class="prompt">~/</span>${esc(config.handle)}</a>
-  <nav>${nav}<a href="${root}feed.xml">rss</a></nav>
+  <a class="brand" href="${root}index.html">${esc(config.name)}</a>
+  <nav>${nav}<a href="${root}feed.xml">RSS</a></nav>
 </header>
 <main>
 ${body}
