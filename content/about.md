@@ -2,7 +2,7 @@
 title: About
 ---
 
-Hi, I'm **Your Name**. I'm a software engineer based in *Your City*. I mostly work on *what you work on*.
+Hi, I'm **Siran Barzorak**. I'm a software engineer based in *Your City*. I mostly work on *what you work on*.
 
 This site is where I write things down: what I'm building, things I learned the hard way, and the occasional opinion.
 
