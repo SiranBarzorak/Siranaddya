@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 60 760 346" role="img" aria-label="The S2V Skill Graph: Skill enables Task, Task moves KPI, KPI indicates Outcome; Person holds Job made of Tasks; Evidence produced by Person proves Skill and comes from Task" font-family="IBM Plex Sans, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#9aa4b5"/>
+    </marker>
+  </defs>
+  <rect x="0" y="60" width="760" height="346" fill="#161e2c"/>
+  <g fill="none" stroke="#9aa4b5" stroke-width="1.25">
+    <path d="M220 110H250" marker-end="url(#a)"/>
+    <path d="M320 138V194" marker-end="url(#a)"/>
+    <path d="M220 230H250" marker-end="url(#a)"/>
+    <path d="M390 230H420" marker-end="url(#a)"/>
+    <path d="M560 230H590" marker-end="url(#a)"/>
+    <path d="M190 314V266" marker-end="url(#a)"/>
+    <path d="M280 314V266" marker-end="url(#a)"/>
+    <path d="M80 110H44V350H165" marker-end="url(#a)"/>
+  </g>
+  <g fill="none" stroke="#5b6679" stroke-width="1.25">
+    <rect x="80" y="82" width="140" height="56" rx="8"/>
+    <rect x="250" y="82" width="140" height="56" rx="8"/>
+    <rect x="80" y="194" width="140" height="72" rx="8"/>
+    <rect x="250" y="194" width="140" height="72" rx="8"/>
+    <rect x="420" y="194" width="140" height="72" rx="8"/>
+    <rect x="165" y="314" width="140" height="72" rx="8"/>
+  </g>
+  <rect x="590" y="194" width="140" height="72" rx="8" fill="rgba(201,164,92,0.14)" stroke="#c9a45c" stroke-width="2"/>
+  <g text-anchor="middle">
+    <g fill="#e7eaf0" font-weight="600">
+      <text x="150" y="106">Person</text>
+      <text x="320" y="106">Job</text>
+      <text x="150" y="218">Skill</text>
+      <text x="320" y="218">Task</text>
+      <text x="490" y="218">KPI</text>
+      <text x="660" y="218" fill="#c9a45c">Outcome</text>
+      <text x="235" y="338">Evidence</text>
+    </g>
+    <g fill="#9aa4b5" font-size="11.5">
+      <text x="150" y="124">a team member</text>
+      <text x="320" y="124">Account Executive</text>
+      <text x="150" y="236">Value-based</text>
+      <text x="150" y="252">negotiation</text>
+      <text x="320" y="236">Negotiate and</text>
+      <text x="320" y="252">close deals</text>
+      <text x="490" y="236">Win rate and</text>
+      <text x="490" y="252">average deal size</text>
+      <text x="660" y="236" fill="#e7eaf0">Quarterly bookings</text>
+      <text x="660" y="252" fill="#e7eaf0">growth</text>
+      <text x="235" y="356">Closed-won deal,</text>
+      <text x="235" y="372">scored call</text>
+    </g>
+  </g>
+  <g fill="#9aa4b5" font-size="11.5">
+    <text x="235" y="76" text-anchor="middle">holds</text>
+    <text x="328" y="170">made of</text>
+    <text x="235" y="186" text-anchor="middle">enables</text>
+    <text x="405" y="186" text-anchor="middle">moves</text>
+    <text x="575" y="186" text-anchor="middle">indicates</text>
+    <text x="196" y="296">proves</text>
+    <text x="286" y="296">from</text>
+    <text x="50" y="342">produces</text>
+  </g>
+</svg>
